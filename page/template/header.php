@@ -12,7 +12,7 @@
         <!-- Contact Info -->
     </div>
     <div class="midHeader">
-        <!-- Mid Header Title -->
+        <h1><!-- Mid Header Title --></h1>
     </div>
 
 </div>
