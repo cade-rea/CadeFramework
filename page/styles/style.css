@@ -1,0 +1,148 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    font-size: 120%;
+    font-family: sans-serif;
+}
+
+#wholePage{
+    background-color: #aaaaaa
+    /*background-color: #5b2901;*/
+    /*background-color: #0D504D;*/
+    /*background-color: #821517;*/
+    /*background-color: #834615;*/
+}
+
+#mainPage{
+    background-color: white;
+    width: 1200px;
+    border-radius: 5px;
+    margin: auto;
+}
+
+header{
+    color: #333;
+}
+
+#mainHeader{
+    padding: 5px;
+    margin-bottom: 10px;
+    height: 150px;
+    width: 100%;
+}
+
+header .logo{
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+
+header .midHeader{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 2em;
+    padding-top: 30px;
+    font-family: sans-serif;
+}
+
+header .contact{
+    float: right;
+    padding-top: 52px;
+    padding-right: 30px;
+}
+
+header #title-nav{
+    clear: both;
+    width: 100%;
+    height: 50px;
+    background-color: #005599;
+    line-height: 50px;
+}
+
+header .pageTitle{
+    float: left;
+    width: 33%;
+    text-align: center;
+    border-right: 3px solid white;
+}
+
+header .pageTitle h1{
+    text-transform: capitalize;
+    color: white;
+}
+
+header #nav{
+    float: right;
+    width: 66%;
+    height: 50px;
+}
+
+header #nav ul{
+    list-style-type: none;
+}
+
+header #nav ul li{
+    float: left;
+    display: block;
+    width: 33%;
+    text-align: center;
+}
+
+header #nav ul li a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    font-size: 1.25em;
+    color: white;
+    text-decoration: none;
+}
+
+header #nav ul li a:hover {
+    font-size: 1.5em;
+}
+
+#mainContent{
+    clear: both;
+    min-height: 375px;
+    padding: 30px;
+}
+
+footer{
+    clear: both;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: white;
+    background-color: #005599;
+}
+
+/*Content*/
+h1.title{
+    width: 100%;
+    margin-bottom: 20px;
+    padding-bottom: 15px;
+    padding-left: 30px;
+    border-bottom: 1px solid #0D504D;
+    color: white;
+    text-transform: capitalize;
+}
+
+#leftContent{
+    float: left;
+    width: 50%;
+    overflow: hidden;
+}
+
+#rightContent{
+    float: right;
+    margin-left: 2%;
+    width: 48%;
+    font-size: 1.7em;
+    padding: 10px;
+    color: #333;
+}
